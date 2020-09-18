@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+
+	<defaultCache maxElementsInMemory="2000" 
+			eternal="true"
+			overflowToDisk="false" 
+			timeToLiveSeconds="1200" />
+			
+	<cache name="bestStories" 
+			maxElementsInMemory="2000"
+			eternal="false" 
+			overflowToDisk="false" 
+			timeToLiveSeconds="900" />
+			
+	<cache name="pastStories" 
+			maxElementsInMemory="2000"
+			eternal="false" 
+			overflowToDisk="false" 
+			timeToLiveSeconds="1800" />
+			
+	<cache name="comments" 
+			maxElementsInMemory="2000"
+			eternal="false" 
+			overflowToDisk="false" 
+			timeToLiveSeconds="900" />
+</ehcache>
